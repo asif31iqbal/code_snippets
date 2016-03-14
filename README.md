@@ -1,2 +1,1 @@
-# code_snippets
-Code examples
+Snippets of example code I find useful.
