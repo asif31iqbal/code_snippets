@@ -43,5 +43,5 @@ echo "-----jq----"
 
 echo "-----jq parallel----"
 mkdir out_data5
-time cat data/* | parallel --pipe --block 10M 'jq -c -f map.jq > out_data5/file_{#}.json'
+time cat data/* | parallel --pipe 'jq -c -f map.jq > out_data5/file_{#}.json'
 echo "-----jq parallel----"
